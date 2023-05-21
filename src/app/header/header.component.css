@@ -1,0 +1,16 @@
+body {
+background-image: url('src/assets/Ellipse1.jpg');
+background-repeat: no-repeat;
+background-position: top;
+background-size: 1600px 280px;
+box-sizing: border-box;
+}
+
+@media(max-width: 585px) {
+
+body {
+background-image:none;
+
+}
+
+}

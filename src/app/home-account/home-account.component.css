@@ -1,0 +1,253 @@
+
+main{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:117px;
+    left:339px;
+    bottom: 25%;
+    right:25%;
+    width: 761px;
+    height: 582px;
+    display: grid;
+    grid-template-columns: 361px 400px;
+}
+
+main:before {
+  position: absolute;
+  height: 0;
+  width: 0;
+  content: ' ';
+  border: 40px solid white;
+  border-color: transparent transparent white white;
+  /* border-width: 20px 0px 0px 15px; */
+  left: 0px;
+  top: 502px;
+}
+
+main:after {
+  position: absolute;
+  height: 0;
+  width: 0;
+  content: ' ';
+  border: 40px solid white;
+  border-color: #c7acda #c7acda transparent transparent;
+
+  left: 681px;
+  top: 0px;
+}
+
+
+section{
+top:45px;
+width: 361px;
+height: 582px;
+text-align: left;
+background-image: url('src/assets/background.jpg');
+background-size: 361px 582px;
+
+}
+
+section span{
+color: white;
+font-style:Bold;
+font-size: 34px;
+font-weight:700;
+width: 264px;
+display:flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+margin-top: 100px;
+margin-left: 50px;
+}
+
+section div{
+color: white;
+font-style:Regular;
+font-size: 17px;
+font-weight:400;
+width: 264px;
+display:flex;
+align-items: center;
+justify-content: center;
+margin:auto;
+margin-top: 15px;
+padding-left: 8px;
+}
+
+article{
+width: 400px;
+height: 582px;
+background-color: white;
+}
+
+article span{
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-weight: 700;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:40px;
+    left:416px;
+    gap:30px;
+}
+
+article div {
+    position: absolute;
+    top: 70px;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+font-size: 16px;
+font-weight: 700;
+text-align: left;
+font-style: Bold;
+margin-left: 55px;
+}
+
+input[type="email"]{
+    position: absolute;
+    left: 55px;
+    width: 290px;
+    height:42px;
+    border: 2px solid;
+    border-color: rgba(189,189,189,1);
+    margin-top: 4px;
+}
+
+input[type="date"]{
+    position: absolute;
+    top:120px;
+    left: 55px;
+    width: 290px;
+    height:42px;
+    border: 2px solid;
+    border-color: rgba(189,189,189,1);
+    margin-top: 4px;
+}
+
+input[type="password"]{
+    position: absolute;
+    top:230px;
+    left: 55px;
+    width: 290px;
+    height:42px;
+    border: 2px solid;
+    border-color: rgba(189,189,189,1);
+    margin-top: 4px;
+}
+
+input[type="radio"]{
+margin-left: 0px;
+display:inline;
+text-align: left;
+}
+
+div button{
+    position: absolute;
+    left:55px;
+    top:305px;
+    height: 44px;
+    width: 188px;
+    border-radius: 4px;
+    background-color:#2d9cdb;
+    border-style: none;
+    color: white;
+    font-size: 18px;
+    font-weight:500;
+    font-style: Medium;
+    font-family: 'Roboto';
+}
+
+div label{
+    padding: 4px;
+    margin: 4px;
+    font-size: 14px;
+    font-weight: 00;
+}
+
+select{
+    height:42px;
+    border: 2px solid;
+    border-color: rgba(189,189,189,1);
+    margin-left: 8px;
+}
+
+
+h5{
+    color: rgba(102,102,102,1);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: Regular;
+    text-align: left;
+    word-spacing: 50px;
+    margin-left: 55px;
+}
+
+option, select{
+    color: rgba(102,102,102,1);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: Regular;
+    text-align: left;
+}
+
+.success{
+border: 1px solid greenyellow;
+}
+
+#text-error{
+    position: absolute;
+    left:55px;
+    top:66px;
+    width:195px;
+    height:27px;
+    color:white;
+    background-color: #eb5757;
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 7px;
+    margin: 0px;
+}
+
+#password-error{
+    position: absolute;
+    left:55px;
+    top:276px;
+    width:230px;
+    height:27px;
+    color:white;
+    background-color: #eb5757;
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 7px;
+    margin: 0px;
+}
+
+input[type="password"]:invalid,input[type="email"]:invalid{
+    border: 3px solid #eb5757
+}
+
+
+@media(max-width: 585px) {
+section {
+top:0px;
+left:10px;
+text-align: left;
+background-image: url('src/assets/background.jpg');
+background-size: 944px 392px;
+}
+
+
+}
